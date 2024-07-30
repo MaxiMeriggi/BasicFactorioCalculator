@@ -1,0 +1,57 @@
+:root{
+    --base-px: 24px;
+}
+
+body{
+    color: #fff;
+    font-size: var(--base-px);
+    background-color: #000;
+}
+
+main{
+    padding: 1.5rem;
+}
+
+.input{
+    height: calc(var(--base-px) * 2) ;
+    width: calc(var(--base-px) * 4) ;
+    
+    font-size: inherit;
+
+    text-align: center;
+}
+
+
+.calculate{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputHolder{
+    display: grid;
+
+}
+
+.variableHolder{
+    display: grid;
+    
+    grid-template-columns: repeat(3, 3fr);
+    grid-column-gap: 1.5rem;
+    
+    padding-bottom: 1rem;
+
+    border-bottom: 3px solid #fff;
+}
+
+.holder{
+    display: flex;
+    flex-flow: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#ResultSec, #ResultMin{
+    color: #fff;
+}
