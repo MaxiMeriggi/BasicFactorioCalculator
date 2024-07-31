@@ -12,13 +12,26 @@ main{
     padding: 1.5rem;
 }
 
+button{
+    height: calc(var(--base-px) * 2) ;
+    width: calc(var(--base-px) * 4) ;
+}
+
+.duplicateButtonHolder{
+    padding: 1rem;
+}
+
 .input{
     height: calc(var(--base-px) * 2) ;
     width: calc(var(--base-px) * 4) ;
     
     font-size: inherit;
-
+    
     text-align: center;
+}
+
+.CalculateFor{
+    width: calc(var(--base-px) * 6) ;
 }
 
 

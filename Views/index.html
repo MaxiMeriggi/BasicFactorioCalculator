@@ -8,28 +8,28 @@
 </head>
 <body>
     <main>
-        <div class="calculate">
+        <div class="calculate" id="Calculate_0">
             <div class="inputHolder">
                 <div class="variableHolder">
                     <div class="holder">
                         <p class="inputLabel">Productivity</p>
-                        <input class="input" type="number" id="Productivity" value="1">
+                        <input class="input" type="number" id="Productivity_0">
                     </div>
                     
                     <div class="holder">
                         <p class="inputLabel">Factories</p>
-                        <input class="input" id="Factories" />
+                        <input class="input" id="Factories_0" />
                     </div>
                     
                     <div class="holder">
                         <p class="inputLabel">Crafting speed</p>
-                        <input class="input" id="Crafting" >
+                        <input class="input" id="Crafting_0" >
                     </div>
                 </div>
 
                 <div class="holder">
                     <p class="inputLabel">Recipe time</p>
-                    <input class="input" id="Recipe" >
+                    <input class="input" id="Recipe_0" >
                 </div>
             </div>
 
@@ -37,16 +37,23 @@
             <div class="resultHolder">
                 <div class="holder">
                     <p class="inputLabel">Items per second</p>
-                    <input class="input" id="ResultSec" disabled>
+                    <input class="input" id="ResultSec_0" disabled>
                 </div>
             
                 <div class="holder">
                     <p class="inputLabel">Items per minute</p>
-                    <input class="input" id="ResultMin" disabled>
+                    <input class="input" id="ResultMin_0" disabled>
                 </div>
-            
-            
-            
+            </div>
+
+            <div class="duplicateHolder">
+                <div class="holder">
+                    <p class="inputLabel">Calculating for</p>
+                    <input class="input CalculateFor" id="RecipeName_0">
+                </div>
+                <div class="holder duplicateButtonHolder">
+                    <button id="Duplicate">Duplicate</button>
+                </div>
             </div>
 
         </div>
